@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- digite alt z para mudar visualização com ou sem quebra-->
+    <meta charset="UTF-8">
+    <!--Esta tag de baixo é para gerar compatibilidade com o navegador Edge, independentemente da versão-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Esta tag é para ajustar a largura do dispositivo, ajustando a largura máxima para 1.0, sendo importante para responsividade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <!-- esta parte liga o arquivo com o css, ela só abre e não fecha-->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body><!--É importante manter as tags estruturais header, main e footer-->
+    <header class="cabeçalho">
+        <nav class="cabeçalho__menu">
+            <a class="cabeçalho__menu__link" href="index.html"> Home </a>
+            <a class="cabeçalho__menu__link" href="about.html"> Sobre mim </a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um frontend de qualidade</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em React, HTML e CSS. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+            <!--div devem ser usadas apenas para agrupar itens visuais, mas devemos usar mais section e main que tem significado semantico para agrupar itens de uma mensagem-->
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__titulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__botao" href="https://www.linkedin.com/in/valquiria-pianheri/"> 
+                    <img src="./assets/icone_linkedin.png" alt="icone do linkedIn" width="32px" height="32px">
+                    LinkedIn 
+                </a>
+                <a class="apresentacao__links__botao" href="https://github.com/Valqps"> 
+                    <img src="./assets/icone_github.png" alt="icone do GitHub" width="32px" height="32px">
+                    GitHub 
+                </a>
+            </div>
+        </section>
+            <img class="apresentacao__imagem" src="./assets/Imagem.png" alt="garota progamando">
+    </main>
+    <footer class="rodape">
+        Desenvolvido por Valquiria
+    </footer>
+</body>
+</html>
